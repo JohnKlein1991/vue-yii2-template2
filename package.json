@@ -1,0 +1,30 @@
+{
+  "name": "viy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_ENV=development webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "cross-env": "^3.2.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "@websanova/vue-auth": "^2.21.15-beta",
+    "axios": "^0.15.3",
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.4.0",
+    "laravel-mix": "^5.0.1",
+    "laravel-vue-pagination": "^2.3.1",
+    "vue": "^2.5.14",
+    "vue-axios": "^2.1.5",
+    "vue-loader": "^15.8.3",
+    "vue-router": "^3.0.1",
+    "webpack": "^4.41.5"
+  }
+}
