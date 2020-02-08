@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@websanova/vue-auth": "^2.21.15-beta",
-    "axios": "^0.15.3",
+    "axios": "^0.18.1",
     "bootstrap": "^4.4.1",
     "bootstrap-vue": "^2.4.0",
     "laravel-mix": "^5.0.1",
